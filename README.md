@@ -2,7 +2,7 @@
 
 ## Achievements
 
-Participating in the MIT Professional Education Applied Data Science **Hackathone** competition was an incredible experience, where I competed alongside **industry experts** and secured **5th place**. This achievement allowed me to apply the extensive knowledge I gained from **MIT Data Science** program, demonstrating both my skills and dedication to the field of data science.
+Participating in the MIT Professional Education Applied Data Science **Hackathon** competition was an incredible experience, where I competed alongside **industry experts** and secured **5th place**. This achievement allowed me to apply the extensive knowledge I gained from the **MIT Data Science** program, demonstrating both my skills and dedication to the field of data science.
 
 ![image](https://github.com/user-attachments/assets/97fcffc2-192e-438f-85e6-146e3ed592bc)
 
