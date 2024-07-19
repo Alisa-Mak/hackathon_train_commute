@@ -27,3 +27,55 @@ Test_Data
 
 ## Target Variable: 
 Overall_Experience (1 represents ‘satisfied’, and 0 represents ‘not satisfied’)
+
+Here's a summarized and polished version for your README:
+
+### Strategy Overview:
+
+1. **Understanding the Data (EDA)**:
+   - Conducted thorough Exploratory Data Analysis to gain insights into the dataset.
+
+2. **Handling Missing Values**:
+   - Removed rows with less than 1% missing values.
+   - For continuous variables with more than 1% missing values, used KNNImputer.
+   - Imputed categorical variables with the mode.
+
+3. **Feature Engineering**:
+   - A crucial part of the process, focusing on creating new features that capture the essence of the data.
+   - Generated features such as `Total_Delay`, `Average_Delay`, `Overall_Rating`, and interaction terms.
+   - Used these engineered features to improve model performance.
+
+4. **Normalization and Handling Outliers**:
+   - Normalized continuous features and handled outliers to ensure robust model performance.
+
+5. **Feature Selection**:
+   - Selected the most relevant features using techniques like Chi-square tests.
+
+6. **Model Training**:
+   - Decision Trees were identified as suitable for this classification problem.
+   - Tried various models and compared their performance:
+
+| Model                           | Accuracy  |
+|---------------------------------|-----------|
+| Decision Tree                   | 0.930000  |
+| Bagging Decision Tree Classifier| 0.947700  |
+| Bagging XGBoost Classifier      | 0.952300  |
+| Bagging Random Forest Classifier| 0.951900  |
+| AdaBoost                        | 0.893500  |
+| Gradient Boosting               | 0.919400  |
+| XGBoost                         | 0.954400  |
+| Ensemble                        | 0.956200  |
+| CatBoost                        | 0.960000  |
+| CatBoost Calibrated             | 0.954400  |
+
+### Steps to Improve Model Performance:
+- Fine-tuning hyperparameters using GridSearch and RandomSearch.
+- Calibration, cross-validation, and regularization.
+- Adjusting learning rates for better convergence.
+
+### Data Quality Improvements:
+- Handling missing values and outliers.
+- Filtering noise and normalizing data.
+
+### Lessons Learned:
+- The performance of a model heavily depends on the **quality of the data**. Ensuring high-quality data is a crucial step for achieving accurate and reliable results.
