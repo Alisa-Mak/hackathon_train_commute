@@ -1,4 +1,4 @@
-# Shinkansen Travel Experience
+# Hackathon - Shinkansen Travel Experience
 
 ## Achievements:
 
